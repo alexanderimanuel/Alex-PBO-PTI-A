@@ -1,5 +1,0 @@
-ProfessorA 2020 FilsafatA
-ProfessorB 2020 FilsafatB
-ProfessorC 2020 FilsafatC
-ProfessorD 2020 FilsafatD
-ProfessorE 2020 FilsafatE
