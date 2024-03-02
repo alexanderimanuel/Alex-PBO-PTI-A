@@ -1,5 +1,0 @@
-ProfessorA 2020 Kristen  
-ProfessorB 2020 Islam
-ProfessorC 2020 Katolik
-ProfessorD 2020 Hindu
-ProfessorE 2020 Budha
