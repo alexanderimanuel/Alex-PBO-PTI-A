@@ -1,5 +1,0 @@
-ProfessorA 2020 PolitikA  
-ProfessorB 2020 PolitikB 
-ProfessorC 2020 PolitikC
-ProfessorD 2020 PolitikD
-ProfessorE 2020 PolitikE

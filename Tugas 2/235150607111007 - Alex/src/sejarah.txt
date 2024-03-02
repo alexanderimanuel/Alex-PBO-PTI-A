@@ -1,5 +1,0 @@
-ProfessorA 2020 SejarahA
-ProfessorB 2020 SejarahB 
-ProfessorC 2020 SejarahC
-ProfessorD 2020 SejarahD
-ProfessorE 2020 SejarahE
