@@ -1,0 +1,5 @@
+ProfessorA 2020 FiksiA
+ProfessorB 2020 FiksiB 
+ProfessorC 2020 FiksiC
+ProfessorD 2020 FiksiD
+ProfessorE 2020 FiksiE

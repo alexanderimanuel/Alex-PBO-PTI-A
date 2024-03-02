@@ -1,0 +1,5 @@
+ProfessorA 2020 PsikologiA  
+ProfessorB 2020 PsikologiB 
+ProfessorC 2020 PsikologiC
+ProfessorD 2020 PsikologiD
+ProfessorE 2020 PsikologiE
