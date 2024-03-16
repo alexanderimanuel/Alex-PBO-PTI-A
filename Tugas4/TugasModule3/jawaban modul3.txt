@@ -1,0 +1,56 @@
+Overloading Method 
+
+1. Tidak ditemukan kesalahan
+2. Maka akan terjadi error dikarenakan jumlah dan tipe parameter pada line 7 sama dengan jumlah dan tipe paramater yang ada pada line 3 dengan nama method yang sama pula. Jadi, ketika kita menerapkan method overloading, jumlah dan tipe parameter nya harus berbeda
+3. yang diubah dan ditambahkan : 
+    static double hasil;	
+
+    // No. 3 (before)		
+    // public static double HitungLuas(double value, double value2){
+    //     double nilai = value* value2;			
+    //     return nilai;			
+    // }			
+    // No. 3 (after)
+    public static void HitungLuas(double value, double value2) {
+        hasil = value*value2;
+    }
+
+    HitungLuas(double1,double2);	
+    System.out.println("Maka hasil luas :"+hasil);
+
+Overloading Constructor 
+1. Ditemukan kesalahan, untuk perubahannya 
+public static void main(String[] args) {
+        // No 1 (Before)
+        // lingkaran satu = new lingkaran(3);
+        // 1.setTinggi(10);
+        // 1.displayMessage();
+        // lingkaran 12 = new lingkaran(4,10);
+        // l2.displayMessage();
+        // No. 1 (after)
+        lingkaran satu = new lingkaran(3);
+        satu.setTinggi(10);
+        satu.displayMessage();
+        lingkaran duaBelas = new lingkaran(4,10);
+        duaBelas.displayMessage();
+    }
+
+2. terjadi karena nama construtor, jumlah serta tipe data pada parameter sama dengan seperti di line 3
+3. Yang ditambahkan :
+// No 3
+    public lingkaran(String a, String b) {
+        String alas = a;
+        String tinggi = b;
+        parsing(alas,tinggi);
+    }
+    public void parsing(String a, String b) {
+        alas = Integer.parseInt(a);
+        tinggi = Integer.parseInt(b);
+    }
+// dipanggil pada Main
+    lingkaran Lstring = new lingkaran("10","20");
+    System.out.println(Lstring.hitungLuas());	
+// Output 
+   100.0
+// Penjelasan 
+   Saya membuat constructor overloading dengan memberikan 2 parameter string yang disimpan ke dalam String alas dan String tinggi. Kemudian, constructor lingkaran akan secara otomatis memanggil method parsing dengan masukan alas dan tinggi (bertipe data string). Ketika memasuki method parsing, String alas dan String tinggi disimpan ke dalam instance variabel alas dan tinggi bertipe data int (yang ada di line atas). Masuk ke class main, ada pemanggilan class dengan memberikan nama objek Lstring dan menggunakan constructor dengan 2 parameter string. Selanjutnya, ada pemanggilan method hitungLuas dan ditampilkan hasilnya maka akan tampil angka hasil hitungluas (perubahan String menjadi Int dan disimpan pada instance variabel int alas dan int tinggi dilakukan ketika memanggil method parsing() pada lingkaran.java
