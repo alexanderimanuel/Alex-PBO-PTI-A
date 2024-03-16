@@ -14,7 +14,6 @@ public class Anggota {
             i += 1;
         }
         dataBukuPinjam[i] = judulBuku.judul;
-        // System.out.println(dataBukuPinjam[i]);
     }
 
     void kembalikanBuku(Buku judulBuku) {

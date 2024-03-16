@@ -12,12 +12,13 @@ public class Buku {
             }
             i++;
         }
-        
     }
+
     void catatanKerusakan(String judul) {
         System.out.println("Tidak ada catatan kerusakan pada buku dengan judul "+judul);
         tampilkanHalamanBuku(halamanBuku);
     }
+    
     void tampilkanHalamanBuku(String halaman) {
         System.out.println("Jumlah halaman adalah "+halamanBuku);
     }

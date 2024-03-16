@@ -1,0 +1,3 @@
+Pemrograman Java;300
+Struktur Data dan Algoritma;250
+Pengantar Ilmu Komputer;200
