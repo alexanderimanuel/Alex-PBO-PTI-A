@@ -4,7 +4,7 @@ public class Perpustakaan {
     public String[] anggota = new String[100];
     private String namaPerpustakaan;
     private String lokasiPerpustakaan;
-    private int jumlahAnggota = 0;
+
     // Menambah 3 constructor overloading
     public Perpustakaan() {
         String namaPerpustakaan = "";
@@ -93,11 +93,11 @@ public class Perpustakaan {
         anggota[i] = namaAnggota.nama;
     }
     // mengembalikan tipe data class itu sendiri
-    Anggota[] buatObjekAnggota() {
-        jumlahAnggota++;
-        Anggota[] anggota = new Anggota[jumlahAnggota];
+    Anggota buatObjekAnggota() {
+        Anggota anggota = new Anggota();
         return anggota;
     }
+
     void tambahBuku(Buku judulBuku) {
         int i = 0;
         for (String buku : bukuPerpustakaan) {
