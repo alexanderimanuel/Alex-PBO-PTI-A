@@ -37,21 +37,21 @@ public class RasionalDemo{
         R1.cetak();
         System.out.println();
 
-        // No. 5 pengurangan 
+        // No. 4 pengurangan 
         System.out.print("R1 : "); 
         R1.cetak(); 
         System.out.print("R2 : "); 
         R2.cetak();
         R1.subtract(R2).cetak();
 
-        // No. 5 perkalian
+        // No. 4 perkalian
         System.out.print("R1 : "); 
         R1.cetak();
         System.out.print("R2 : "); 
         R2.cetak();
         R1.multiply(R2).cetak();;
 
-        // No. 5 pembagian
+        // No. 4 pembagian
         System.out.print("R1 : "); 
         R1.cetak();
         System.out.print("R2 : "); 

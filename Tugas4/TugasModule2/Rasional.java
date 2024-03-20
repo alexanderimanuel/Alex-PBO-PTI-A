@@ -32,7 +32,7 @@ public class Rasional{
         
         // pembilang /=A; 
         // penyebut /=A;
-        // No 4.
+        // No 3.
         for (; B != 0; ) {
             temp = A % B;
             A = B;
@@ -82,7 +82,7 @@ public class Rasional{
         return (pembilang * A.penyebut >= penyebut * A.pembilang);
     }
 
-    // No. 5
+    // No. 4
     // Metode untuk operasi pengurangan
     public Rasional subtract(Rasional r) {
         int newPembilang = this.pembilang * r.penyebut - this.penyebut * r.pembilang;
