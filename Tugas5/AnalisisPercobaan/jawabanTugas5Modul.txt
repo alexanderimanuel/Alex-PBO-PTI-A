@@ -1,0 +1,48 @@
+Encapsulation 1
+
+1. Yang diubah : 
+    // No. 1 before 
+    // s1.setMark("90");
+    // After
+    s1.setMark(90);
+
+    // No. 1 before
+    // System.out.println("s1Name is "+s1.setName());
+    // After
+    System.out.println("s1Name is "+s1.getName());
+
+    // No. 1 before
+    // System.out.println("s1Mark is "+s1.setMark());
+    // After 
+    System.out.println("s1Mark is "+s1.getMark());
+
+    // No. 1 before
+    // System.out.println("name dan mark "+name+" "+mark);
+    // After
+    System.out.println("name dan mark "+s1.getName()+" "+s1.getMark());
+
+
+2. maka ketika diprint, akan menampilkan nama dari objek s1
+3. ketika diubah menjadi private, maka nilai Test.java tidak dapat memasukkan nilai name pada objek s1
+4. Ketika sudah ditaruh ke dalam package yang sama, maka encapsulasi tetap berpengaruh
+
+Encapsulation 2
+
+1. getMaxLoad(), getLoad()
+2. Setelah dijalankan, maka akan terjadi error karena load bersifat private;
+3. a. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
+   b. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
+4. a. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
+   b. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
+5. a. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
+   b. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
+
+
+
+
+Anda dan tim anda mendapat sebuah proyek untuk merancang sistem transaksi pada sebuah swalayan Tiny. Anda ditugasi oleh tim untuk membuat programnya berdasarkan hasil analisis tim anda :
+1. Informasi akun seorang pelanggan (saldo, nomor pelanggan, nama) tidak bias diubah oleh pelanggan secara langsung.
+2. Nomor pelanggan terdiri dari 10 digit, dimana 2 digit awal adalah jenis rekening
+o 38 : Pelanggan jenis silver; setiap pembelian diatas 1 jt maka mendapat cashback sebesar 5%
+o 56 : Pelanggan jenis gold; setiap pembelian diatas 1 jt maka mendapat cashback sebesar 7%, selain itu cashback 2% (cashback kembali ke saldo)
+o 74 : Pelanggan jenis platinum; setiap pembelian diatas 1 jt maka mendapat cashback sebesar 10%, selain itu cashback 5% (cashback kembali ke saldo)
