@@ -36,13 +36,3 @@ Encapsulation 2
    b. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
 5. a. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
    b. Ketika dijalankan, maka akan menampilkan "Add load(100kg) : 500.0"
-
-
-
-
-Anda dan tim anda mendapat sebuah proyek untuk merancang sistem transaksi pada sebuah swalayan Tiny. Anda ditugasi oleh tim untuk membuat programnya berdasarkan hasil analisis tim anda :
-1. Informasi akun seorang pelanggan (saldo, nomor pelanggan, nama) tidak bias diubah oleh pelanggan secara langsung.
-2. Nomor pelanggan terdiri dari 10 digit, dimana 2 digit awal adalah jenis rekening
-o 38 : Pelanggan jenis silver; setiap pembelian diatas 1 jt maka mendapat cashback sebesar 5%
-o 56 : Pelanggan jenis gold; setiap pembelian diatas 1 jt maka mendapat cashback sebesar 7%, selain itu cashback 2% (cashback kembali ke saldo)
-o 74 : Pelanggan jenis platinum; setiap pembelian diatas 1 jt maka mendapat cashback sebesar 10%, selain itu cashback 5% (cashback kembali ke saldo)
