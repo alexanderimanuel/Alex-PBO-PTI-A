@@ -1,4 +1,4 @@
-public class Mahasiswa extends Civitas {
+public class Mahasiswa extends Civitas implements PesertaKelas{
     private String nim;
     private double ipk;
     private int golUkt;
@@ -29,5 +29,9 @@ public class Mahasiswa extends Civitas {
 
     public void presentasi() {
         System.out.println("Mahasiswa presentasi");
+    }
+
+    public void masukKelas() {
+        System.out.println("Mahasiswa masuk kelas");
     }
 }
