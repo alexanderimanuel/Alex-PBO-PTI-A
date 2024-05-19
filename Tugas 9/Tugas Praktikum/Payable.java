@@ -1,4 +1,4 @@
 interface Payable {
-    double getPayableAmount();
+    public double getPayableAmount();
 }
 
