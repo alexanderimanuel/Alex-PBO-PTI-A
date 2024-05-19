@@ -1,4 +1,4 @@
 public interface Contract {
-    void attendTrainingSession();
-    void trackContractDuration();
+    public void attendTrainingSession();
+    public void trackContractDuration();
 }
